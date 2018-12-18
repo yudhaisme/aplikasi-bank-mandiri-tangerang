@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prayudha.asdi.mandiritangerangservice">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TangerangOfficeNetwork"
+            android:screenOrientation="portrait" />
+        <activity android:name=".WebActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".DaerahKabupaten"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DaerahKota"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DaerahTangsel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KabBalaraja"
+            android:parentActivityName=".DaerahKabupaten" />
+        <activity
+            android:name=".KabCikupa"
+            android:parentActivityName=".DaerahKabupaten" />
+        <activity
+            android:name=".KabCitra"
+            android:parentActivityName=".DaerahKabupaten" />
+        <activity
+            android:name=".KabCurug"
+            android:parentActivityName=".DaerahKabupaten" />
+        <activity
+            android:name=".KabKosambi"
+            android:parentActivityName=".DaerahKabupaten" />
+        <activity
+            android:name=".KabKemis"
+            android:parentActivityName=".DaerahKabupaten" />
+        <activity
+            android:name=".KabKotbum"
+            android:parentActivityName=".DaerahKabupaten" />
+        <activity
+            android:name=".KotaSelapajang"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaBandara"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaDuta"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaGedung"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaTaman"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaAhmad"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaBumi"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaCikokol"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaCiledug"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaTangcity"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaDaan"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaKisamaun"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaMerdeka"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaJati"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaPsPoris"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaPinangsia"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".KotaBorobudur"
+            android:parentActivityName=".DaerahKota" />
+        <activity
+            android:name=".TangJurangmangu"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangMall"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangBintaro"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangBintaro3"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangBumi"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangGading"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangBsd"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangGraha"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangItc"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangPamulang"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangParis"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangCiputat"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangPdCabe"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangSarua"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangCirendeu"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangSerpong"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangSummarecon"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangCiputatCenter"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity
+            android:name=".TangAlsut"
+            android:parentActivityName=".DaerahTangsel" />
+        <activity android:name=".About" />
+        <activity android:name=".Help"></activity>
+    </application>
+
+</manifest>

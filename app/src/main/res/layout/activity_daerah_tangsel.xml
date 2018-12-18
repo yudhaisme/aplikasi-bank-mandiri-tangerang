@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prayudha.asdi.mandiritangerangservice.DaerahTangsel"
+    android:background="@drawable/background5">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:textColor="#228B22"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="KANTOR CABANG TANGERANG SELATAN"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_bsd"
+        android:src="@drawable/tang_bsd"
+        android:layout_below="@+id/judul"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_jurangmangu"
+        android:src="@drawable/tang_jurangmangu"
+        android:layout_below="@+id/tang_bsd"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_mall"
+        android:src="@drawable/tang_mall"
+        android:layout_below="@+id/tang_jurangmangu"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_bintaro"
+        android:src="@drawable/tang_bintaro"
+        android:layout_below="@+id/tang_mall"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_bintaro3"
+        android:src="@drawable/tang_bintaro3"
+        android:layout_below="@+id/tang_bintaro"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_bumi"
+        android:src="@drawable/tang_bumi"
+        android:layout_below="@+id/tang_bintaro3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_gading"
+        android:src="@drawable/tang_gading"
+        android:layout_below="@+id/tang_bumi"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_graha"
+        android:src="@drawable/tang_graha"
+        android:layout_below="@+id/tang_gading"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_itc"
+        android:src="@drawable/tang_itc"
+        android:layout_below="@+id/tang_graha"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_pamulang"
+        android:src="@drawable/tang_pamulang"
+        android:layout_below="@+id/tang_itc"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_paris"
+        android:src="@drawable/tang_paris"
+        android:layout_below="@+id/tang_pamulang"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_ciputat"
+        android:src="@drawable/tang_ciputat"
+        android:layout_below="@+id/tang_paris"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_pdcabe"
+        android:src="@drawable/tang_pdcabe"
+        android:layout_below="@+id/tang_ciputat"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_sarua"
+        android:src="@drawable/tang_sarua"
+        android:layout_below="@+id/tang_pdcabe"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_cirendeu"
+        android:src="@drawable/tang_cirendeu"
+        android:layout_below="@+id/tang_sarua"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_serpong"
+        android:src="@drawable/tang_serpong"
+        android:layout_below="@+id/tang_cirendeu"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/tang_summarecon"
+        android:src="@drawable/tang_summarecon"
+        android:layout_marginBottom="70dp"
+        android:layout_below="@+id/tang_serpong"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+</ScrollView>

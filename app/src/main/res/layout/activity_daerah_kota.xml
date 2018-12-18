@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prayudha.asdi.mandiritangerangservice.DaerahKota"
+    android:background="@drawable/background5">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:textColor="#228B22"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="KANTOR CABANG KOTA TANGERANG"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:id="@+id/kota_bandara"
+        app:srcCompat="@drawable/kota_bandara"
+        android:layout_below="@+id/judul"
+        android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_selapajang"
+            app:srcCompat="@drawable/kota_selapajang"
+            android:layout_below="@+id/kota_bandara"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_duta"
+            app:srcCompat="@drawable/kota_duta"
+            android:layout_below="@+id/kota_selapajang"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_gedung"
+            app:srcCompat="@drawable/kota_gedung"
+            android:layout_below="@+id/kota_duta"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_taman"
+            app:srcCompat="@drawable/kota_taman"
+            android:layout_below="@+id/kota_gedung"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_ahmad"
+            app:srcCompat="@drawable/kota_ahmad"
+            android:layout_below="@+id/kota_taman"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_bumi"
+            app:srcCompat="@drawable/kota_bumi"
+            android:layout_below="@+id/kota_ahmad"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_cikokol"
+            app:srcCompat="@drawable/kota_cikokol"
+            android:layout_below="@+id/kota_bumi"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_ciledug"
+            app:srcCompat="@drawable/kota_ciledug"
+            android:layout_below="@+id/kota_cikokol"
+            android:layout_centerHorizontal="true" />
+
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_tangcity"
+            app:srcCompat="@drawable/kota_tangcity"
+            android:layout_below="@+id/kota_ciledug"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_daan"
+            app:srcCompat="@drawable/kota_daan"
+            android:layout_below="@+id/kota_tangcity"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_kisamaun"
+            app:srcCompat="@drawable/kota_kisamaun"
+            android:layout_below="@+id/kota_daan"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_merdeka"
+            app:srcCompat="@drawable/kota_merdeka"
+            android:layout_below="@+id/kota_kisamaun"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_jati"
+            app:srcCompat="@drawable/kota_jati"
+            android:layout_below="@+id/kota_merdeka"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_psporis"
+            app:srcCompat="@drawable/kota_psporis"
+            android:layout_below="@+id/kota_jati"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_pinangsia"
+            app:srcCompat="@drawable/kota_pinangsia"
+            android:layout_below="@+id/kota_psporis"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:id="@+id/kota_borobudur"
+            app:srcCompat="@drawable/kota_borobudur"
+            android:layout_marginBottom="70dp"
+            android:layout_below="@+id/kota_pinangsia"
+            android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>

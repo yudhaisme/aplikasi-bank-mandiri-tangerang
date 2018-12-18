@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prayudha.asdi.mandiritangerangservice.DaerahKabupaten"
+    android:background="@drawable/background5">
+
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:textColor="#228B22"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="KANTOR CABANG KABUPATEN TANGERANG"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/kab_balaraja"
+        android:src="@drawable/kab_balaraja"
+        android:layout_below="@+id/judul"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/kab_cikupa"
+        android:src="@drawable/kab_cikupa"
+        android:layout_below="@+id/kab_balaraja"
+        android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/kab_citra"
+            android:src="@drawable/kab_citra"
+            android:layout_below="@+id/kab_cikupa"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/kab_curug"
+            android:src="@drawable/kab_curug"
+            android:layout_below="@+id/kab_citra"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/kab_kosambi"
+            android:src="@drawable/kab_kosambi"
+            android:layout_below="@+id/kab_curug"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/kab_kemis"
+            android:src="@drawable/kab_kemis"
+            android:layout_below="@+id/kab_kosambi"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/kab_kotbum"
+            android:src="@drawable/kab_kotbum"
+            android:layout_marginBottom="70dp"
+            android:layout_below="@+id/kab_kemis"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>
